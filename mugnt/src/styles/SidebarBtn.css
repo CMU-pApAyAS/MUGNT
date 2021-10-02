@@ -1,0 +1,21 @@
+.sidebar-btn-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: transform 0.3s;
+    position: absolute;
+    z-index: 20;
+}
+
+.sidebar-btn {
+    height: 4rem;
+    width: 1.5rem;
+    background-color: white;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    z-index: 20;
+}
